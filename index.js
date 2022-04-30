@@ -6,8 +6,8 @@ import { fileURLToPath } from 'url'
 const app = express()
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const credentials = {
-  login: 'vilius@bit.lt',
-  password: 'labas1234'
+  login: 'gedas@bit.lt',
+  password: 'taram12345'
 }
 
 app.get('/', (req, res) => {
