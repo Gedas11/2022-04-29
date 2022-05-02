@@ -7,9 +7,17 @@
     <title>Submit forma</title>
 </head>
 <body>
-    <form method="GET" action="/login-submit">
-        <input type="text" name="login"> <br />
-        <input type="password" name="password" /> <br />
+    <form method="GET" action="/client-submit">
+        <label>Vardas:</label>
+        <input type="text" name="vardas"> <br />
+        <label>Pavarde:</label>
+        <input type="text" name="pavarde"> <br />
+        <label>Adresas:</label>
+        <input type="text" name="adresas"> <br />
+        <label>Telefonas:</label>
+        <input type="phone" name="telefonas"> <br />
+        <label>El. pašto adresas:</label>
+        <input type="email" name="elpastas" /> <br />
         <button type="submit">Siųsti</button>
     </form>
 </body>
